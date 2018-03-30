@@ -1,4 +1,4 @@
-echo Enter your mobile no:
+echo Enter your mobile no with country code(for ex "91XXXXXXXXXX" where XXXXXXXXX is your no):
 read no
 echo enter your country code:
 read cc
@@ -9,11 +9,12 @@ python yowsup-cli registration -E android -p $no -C $cc -R $OTP
 
 echo "Now your phone is connected!!!!"
 
-echo Enter Password:
+pw: xxxxxxxxxxxxxxxxxx= it will be given above
+echo "Enter Password":
 read pw
 
 
-echo Enter contact to whom you have to send message:
+echo "Enter contact to whom you have to send message(enter no with country code)":
 read cno
 
 echo Enter text message
